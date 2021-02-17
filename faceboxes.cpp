@@ -205,10 +205,10 @@ FaceBoxes::FaceBoxes(const std::string &p_path, bool is_hp) {
     std::cout<<"Loading ... "<<p_path<<std::endl;
     assert(model_exist(p_path));
     Model::script_module = torch::jit::load(p_path);
-    if(Model::script_module.i)
+  
 
-    assert(model_exist("/usr/models/anchors.pt"));
-    Model::anchor_module = torch::jit::load("/usr/models/anchors.pt");
+    assert(model_exist("/usr/models/anchor.pt"));
+    Model::anchor_module = torch::jit::load("/usr/models/anchor.pt");
 
     std::vector<torch::jit::IValue> inputs;
     auto dummy = torch::ones({1, 1});
