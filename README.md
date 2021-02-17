@@ -13,7 +13,7 @@ Move **anchor.pt** and **face.pt** from this repo to `/usr/models/`
   - put sample.jpg in build folder
   - run `./faceboxes` result will be saved in `build/result.jpg`
 ## Info
-Tested on **Ubuntu 20.04**, **libtorch 1.7.1** the weight is traced from the weight published here https://github.com/zisianw/FaceBoxes.PyTorch. So the performance expected to be the same
+Tested on **Ubuntu 20.04**, **libtorch 1.7.1** the weight is traced from the weight published here https://github.com/zisianw/FaceBoxes.PyTorch. So the performance is expected to be the same
 
 ## Todo
 - [ ] Deploy on android
