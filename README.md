@@ -16,6 +16,6 @@ Move **anchor.pt** and **face.pt** from this repo to `/usr/models/`
 Tested on **Ubuntu 20.04**, **libtorch 1.7.1** the weight is traced from the weight published here https://github.com/zisianw/FaceBoxes.PyTorch. So the performance expected to be the same
 
 ## Todo
-[ ] Deploy on android
-[ ] Use half-precision model
-[x] Libtorch
+- [ ] Deploy on android
+- [ ] Use half-precision model
+- [x] Libtorch
